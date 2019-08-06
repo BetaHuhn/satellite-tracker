@@ -1,4 +1,4 @@
-# Satellite-tracker
+# NodeMCU Satellite-tracker
 NodeMCU ESP8266 ISS Satellite tracker
 
 ## Description
