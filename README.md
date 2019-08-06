@@ -8,11 +8,6 @@ and a simple webserver for calibration and control. It gets the Azimuth and Elev
 the satellite from the n2yo API.
 Old version used a python server which calculated the Azimuth and Elevation
 
-## Setup
-- Define your Wifi Network name and password in the .ino file
-- Create an account at [n2yo.com](https://www.n2yo.com/login/register/) and paste your API key into the file
-- Also edit the longitude, latitude and elevation according to your current position
-
 ## Usage
 Once the ESP8266 is booted and connected to your Wifi network, the webserver is started.
 You have to go to its IP adress in a web browser and calibrate it. You do this by pressing the buttons on the website which move
@@ -22,9 +17,14 @@ After finishing the calibration the pointer will move and point to the current p
 using an app like [SpaceStationAR](https://www.sightspacestation.com/).
 Now you can switch between satellites by pressing the button and watch the pointer update itself every 10 seconds.
 
+## Setup
+- Define your Wifi Network name and password in the .ino file
+- Create an account at [n2yo.com](https://www.n2yo.com/login/register/) and paste your API key into the file
+- Also edit the longitude, latitude and elevation according to your current position
+
 ## Circuit diagram
 
-![circuit diagram](satellite_tracker_schmatics.png)
+![circuit diagram](/pictures/satellite_tracker_schmatics.png)
 
 **Connections:**
 - Servo: D3
@@ -32,7 +32,12 @@ Now you can switch between satellites by pressing the button and watch the point
 
 ## Sketch
 
-![sketch](sketch.png)
+![sketch](/pictures/sketch.png)
+
+## Screenshots
+
+![screen1](/pictures/screen1.png)
+![screen2](/pictures/screen2.png)
 
 ## About
 By Maximilian Schiller -  https://github.com/BetaHuhn - 06.08.2019
