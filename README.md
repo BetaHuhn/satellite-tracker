@@ -22,5 +22,13 @@ After finishing the calibration the pointer will move and point to the current p
 using an app like [SpaceStationAR](https://www.sightspacestation.com/).
 Now you can switch between satellites by pressing the button and watch the pointer update itself every 10 seconds.
 
+## Circuit diagram
+
+![circuit diagram](satellite_tracker_schmatics.png)
+
+**Connections:**
+- Servo: D3
+- Stepper: D1/In3, D5/In1, D2/In4, D6/In2
+
 ## About
 By Maximilian Schiller -  https://github.com/BetaHuhn - 06.08.2019
