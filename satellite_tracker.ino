@@ -1,5 +1,5 @@
 /* NodeMCU ESP8266 ISS Satellite tracker
- * Maximilian Schiller -  mail@betahuhn.de - 06.08.2019
+ * Maximilian Schiller - hello@mxis.ch - 06.08.2019
  * 
  * NodeMCU ESP8266 Satellite tracker can locate the position of Satellites (currently ISS and HST)
  * and point to it. It uses a stepper motor and a servo for the postioning of the pointer
